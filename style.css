@@ -1,0 +1,51 @@
+
+.echec{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.piece{
+    flex-basis:10%;
+    align-items: flex-end;
+   
+}
+.piece:nth-child(11){
+    order: -10;
+}
+.piece:nth-child(9){
+    order: -9;
+}
+.piece:nth-child(7){
+    order: -8;
+}
+.piece:nth-child(5){
+    order: -7;
+}
+
+.piece:nth-child(3){
+    order: -6;
+}
+
+.piece:nth-child(1){
+    order: -5;
+}
+.piece:nth-child(12){
+    order: -4;
+}
+.piece:nth-child(10){
+    order: -3;
+}
+.piece:nth-child(8){
+    order: -2;
+}
+.piece:nth-child(6){
+    order: -1;
+}
+.piece:nth-child(4){
+    order:10;
+}
+.piece:nth-child(2){
+    order:11;
+}
